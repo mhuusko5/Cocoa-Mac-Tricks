@@ -1,11 +1,15 @@
+#import "AppDelegate.h"
+
+@implementation AppDelegate
+
 CFMachPortRef eventTap;
 int recentEvents[12] = {29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29};
 NSTimer *clearRecentEventsTimer;
 bool newRecentEvents;
 
-- (void) listenForFourFingerTap
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    eventTap = CGEventTapCreate(kCGHIDEventTap, kCGHeadInsertEventTap, kCGEventTapOptionListenOnly, kCGEventMaskForAllEvents, handleAllEvents, self);
+    eventTap = CGEventTapCreate(kCGHIDEventTap, kCGHeadInsertEventTap, kCGEventTapOptionListenOnly, kCGEventMaskForAllEvents, handleAllEvents, (__bridge void *)(self));
     CFRunLoopSourceRef runLoopSource = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, eventTap, 0);
     CFRunLoopAddSource(CFRunLoopGetMain(), runLoopSource, kCFRunLoopCommonModes);
     CGEventTapEnable(eventTap, true);
@@ -91,7 +95,9 @@ bool newRecentEvents;
 
 CGEventRef handleAllEvents(CGEventTapProxy proxy, CGEventType type, CGEventRef eventRef, void *refcon)
 {
-    [refcon handleEvent:eventRef withType:(int)type];
+    [(__bridge AppDelegate *)refcon handleEvent:eventRef withType:(int)type];
     
     return eventRef;
 }
+
+@end
