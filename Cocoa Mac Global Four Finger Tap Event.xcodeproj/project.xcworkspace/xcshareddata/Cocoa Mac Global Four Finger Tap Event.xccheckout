@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B136AF7A-EC2A-4BEB-B2B9-C7AD836E0DBF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cocoa Mac Global Four Finger Tap Event</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6F6E9F18-C415-419E-AA24-187F1D9421BF</key>
+		<string>https://github.com/mhuusko5/Cocoa-Mac-Global-Four-Finger-Tap-Event.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cocoa Mac Global Four Finger Tap Event.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6F6E9F18-C415-419E-AA24-187F1D9421BF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mhuusko5/Cocoa-Mac-Global-Four-Finger-Tap-Event.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6F6E9F18-C415-419E-AA24-187F1D9421BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6F6E9F18-C415-419E-AA24-187F1D9421BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cocoa-Mac-Global-Four-Finger-Tap-Event</string>
+		</dict>
+	</array>
+</dict>
+</plist>
