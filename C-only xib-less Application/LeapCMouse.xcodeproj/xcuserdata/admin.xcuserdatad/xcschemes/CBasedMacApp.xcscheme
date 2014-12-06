@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0460"
+   LastUpgradeVersion = "0450"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D083433717E500F200BBEE1C"
-               BuildableName = "Cocoa Mac Global Four Finger Tap Event.app"
-               BlueprintName = "Cocoa Mac Global Four Finger Tap Event"
-               ReferencedContainer = "container:Cocoa Mac Global Four Finger Tap Event.xcodeproj">
+               BlueprintIdentifier = "8497818715A361E4002B7B94"
+               BuildableName = "CBasedMacApp.app"
+               BlueprintName = "CBasedMacApp"
+               ReferencedContainer = "container:CBasedMacApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D083433717E500F200BBEE1C"
-            BuildableName = "Cocoa Mac Global Four Finger Tap Event.app"
-            BlueprintName = "Cocoa Mac Global Four Finger Tap Event"
-            ReferencedContainer = "container:Cocoa Mac Global Four Finger Tap Event.xcodeproj">
+            BlueprintIdentifier = "8497818715A361E4002B7B94"
+            BuildableName = "CBasedMacApp.app"
+            BlueprintName = "CBasedMacApp"
+            ReferencedContainer = "container:CBasedMacApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D083433717E500F200BBEE1C"
-            BuildableName = "Cocoa Mac Global Four Finger Tap Event.app"
-            BlueprintName = "Cocoa Mac Global Four Finger Tap Event"
-            ReferencedContainer = "container:Cocoa Mac Global Four Finger Tap Event.xcodeproj">
+            BlueprintIdentifier = "8497818715A361E4002B7B94"
+            BuildableName = "CBasedMacApp.app"
+            BlueprintName = "CBasedMacApp"
+            ReferencedContainer = "container:CBasedMacApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D083433717E500F200BBEE1C"
-            BuildableName = "Cocoa Mac Global Four Finger Tap Event.app"
-            BlueprintName = "Cocoa Mac Global Four Finger Tap Event"
-            ReferencedContainer = "container:Cocoa Mac Global Four Finger Tap Event.xcodeproj">
+            BlueprintIdentifier = "8497818715A361E4002B7B94"
+            BuildableName = "CBasedMacApp.app"
+            BlueprintName = "CBasedMacApp"
+            ReferencedContainer = "container:CBasedMacApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

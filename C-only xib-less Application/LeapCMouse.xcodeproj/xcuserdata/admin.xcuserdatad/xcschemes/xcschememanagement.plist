@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Cocoa Mac Global Four Finger Tap Event.xcscheme</key>
+		<key>CBasedMacApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D083433717E500F200BBEE1C</key>
+		<key>8497818715A361E4002B7B94</key>
 		<dict>
 			<key>primary</key>
 			<true/>

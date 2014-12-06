@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E6D08A17231A9800D4E0CA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8497818F15A361E4002B7B94 /* AppKit.framework */; };
+		D0E6D08B17231A9E00D4E0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8497819115A361E4002B7B94 /* Foundation.framework */; };
+		D0E6D08D17231AA500D4E0CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6D08C17231AA500D4E0CA /* QuartzCore.framework */; };
+		D0E6D08F17231AAB00D4E0CA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6D08E17231AAB00D4E0CA /* CoreFoundation.framework */; };
+		D0E6D09117231AB400D4E0CA /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6D09017231AB400D4E0CA /* ApplicationServices.framework */; };
+		D0F16C4F17259E1F0047D45D /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F16C3C17259E1E0047D45D /* AppDelegate.h */; };
+		D0F16C5017259E1F0047D45D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F16C3D17259E1E0047D45D /* AppDelegate.m */; };
+		D0F16C5117259E1F0047D45D /* DrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F16C3E17259E1E0047D45D /* DrawingView.h */; };
+		D0F16C5217259E1F0047D45D /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F16C3F17259E1E0047D45D /* DrawingView.m */; };
+		D0F16C5417259E1F0047D45D /* InputHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F16C4217259E1E0047D45D /* InputHandler.h */; };
+		D0F16C5517259E1F0047D45D /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F16C4317259E1E0047D45D /* InputHandler.m */; };
+		D0F16C5C17259E1F0047D45D /* LeapCMouse-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D0F16C4B17259E1E0047D45D /* LeapCMouse-Prefix.pch */; };
+		D0F16C5D17259E1F0047D45D /* LeapObjcToC.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F16C4C17259E1F0047D45D /* LeapObjcToC.h */; };
+		D0F16C5E17259E1F0047D45D /* LeapObjcToC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F16C4D17259E1F0047D45D /* LeapObjcToC.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D0F16C5F17259E1F0047D45D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F16C4E17259E1F0047D45D /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D04D20EC1723214D00D2F6CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8497818815A361E4002B7B94 /* LeapCMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapCMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8497818C15A361E4002B7B94 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8497818F15A361E4002B7B94 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8497819015A361E4002B7B94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8497819115A361E4002B7B94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0E6D08C17231AA500D4E0CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D0E6D08E17231AAB00D4E0CA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D0E6D09017231AB400D4E0CA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		D0F16C3C17259E1E0047D45D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0F16C3D17259E1E0047D45D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0F16C3E17259E1E0047D45D /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		D0F16C3F17259E1E0047D45D /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		D0F16C4217259E1E0047D45D /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		D0F16C4317259E1E0047D45D /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		D0F16C4A17259E1E0047D45D /* LeapCMouse-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LeapCMouse-Info.plist"; sourceTree = "<group>"; };
+		D0F16C4B17259E1E0047D45D /* LeapCMouse-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LeapCMouse-Prefix.pch"; sourceTree = "<group>"; };
+		D0F16C4C17259E1F0047D45D /* LeapObjcToC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjcToC.h; sourceTree = "<group>"; };
+		D0F16C4D17259E1F0047D45D /* LeapObjcToC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeapObjcToC.m; sourceTree = "<group>"; };
+		D0F16C4E17259E1F0047D45D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8497818515A361E4002B7B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E6D09117231AB400D4E0CA /* ApplicationServices.framework in Frameworks */,
+				D0E6D08F17231AAB00D4E0CA /* CoreFoundation.framework in Frameworks */,
+				D0E6D08D17231AA500D4E0CA /* QuartzCore.framework in Frameworks */,
+				D0E6D08B17231A9E00D4E0CA /* Foundation.framework in Frameworks */,
+				D0E6D08A17231A9800D4E0CA /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8497817D15A361E3002B7B94 = {
+			isa = PBXGroup;
+			children = (
+				D0F16C3B17259E1E0047D45D /* LeapCMouse */,
+				8497818B15A361E4002B7B94 /* Frameworks */,
+				8497818915A361E4002B7B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8497818915A361E4002B7B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8497818815A361E4002B7B94 /* LeapCMouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8497818B15A361E4002B7B94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E6D09017231AB400D4E0CA /* ApplicationServices.framework */,
+				D0E6D08E17231AAB00D4E0CA /* CoreFoundation.framework */,
+				D0E6D08C17231AA500D4E0CA /* QuartzCore.framework */,
+				8497818C15A361E4002B7B94 /* Cocoa.framework */,
+				8497818E15A361E4002B7B94 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8497818E15A361E4002B7B94 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8497818F15A361E4002B7B94 /* AppKit.framework */,
+				8497819015A361E4002B7B94 /* CoreData.framework */,
+				8497819115A361E4002B7B94 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0F16C3B17259E1E0047D45D /* LeapCMouse */ = {
+			isa = PBXGroup;
+			children = (
+				D0F16C6217259E5E0047D45D /* C Code */,
+				D0F16C6117259E4C0047D45D /* Objective-C Code */,
+				D0F16C6017259E400047D45D /* Supporting Files */,
+			);
+			path = LeapCMouse;
+			sourceTree = "<group>";
+		};
+		D0F16C6017259E400047D45D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F16C4A17259E1E0047D45D /* LeapCMouse-Info.plist */,
+				D0F16C4B17259E1E0047D45D /* LeapCMouse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F16C6117259E4C0047D45D /* Objective-C Code */ = {
+			isa = PBXGroup;
+			children = (
+				D0F16C4C17259E1F0047D45D /* LeapObjcToC.h */,
+				D0F16C4D17259E1F0047D45D /* LeapObjcToC.m */,
+			);
+			name = "Objective-C Code";
+			sourceTree = "<group>";
+		};
+		D0F16C6217259E5E0047D45D /* C Code */ = {
+			isa = PBXGroup;
+			children = (
+				D0F16C4E17259E1F0047D45D /* main.m */,
+				D0F16C3C17259E1E0047D45D /* AppDelegate.h */,
+				D0F16C3D17259E1E0047D45D /* AppDelegate.m */,
+				D0F16C3E17259E1E0047D45D /* DrawingView.h */,
+				D0F16C3F17259E1E0047D45D /* DrawingView.m */,
+				D0F16C4217259E1E0047D45D /* InputHandler.h */,
+				D0F16C4317259E1E0047D45D /* InputHandler.m */,
+			);
+			name = "C Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D04D20EE1723215F00D2F6CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F16C4F17259E1F0047D45D /* AppDelegate.h in Headers */,
+				D0F16C5117259E1F0047D45D /* DrawingView.h in Headers */,
+				D0F16C5417259E1F0047D45D /* InputHandler.h in Headers */,
+				D0F16C5C17259E1F0047D45D /* LeapCMouse-Prefix.pch in Headers */,
+				D0F16C5D17259E1F0047D45D /* LeapObjcToC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8497818715A361E4002B7B94 /* LeapCMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849781A615A361E4002B7B94 /* Build configuration list for PBXNativeTarget "LeapCMouse" */;
+			buildPhases = (
+				8497818415A361E4002B7B94 /* Sources */,
+				8497818515A361E4002B7B94 /* Frameworks */,
+				8497818615A361E4002B7B94 /* Resources */,
+				D04D20EC1723214D00D2F6CF /* CopyFiles */,
+				D04D20EE1723215F00D2F6CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeapCMouse;
+			productName = CBasedMacApp;
+			productReference = 8497818815A361E4002B7B94 /* LeapCMouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8497817F15A361E3002B7B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = mhuusko5;
+			};
+			buildConfigurationList = 8497818215A361E3002B7B94 /* Build configuration list for PBXProject "LeapCMouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8497817D15A361E3002B7B94;
+			productRefGroup = 8497818915A361E4002B7B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8497818715A361E4002B7B94 /* LeapCMouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8497818615A361E4002B7B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8497818415A361E4002B7B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F16C5017259E1F0047D45D /* AppDelegate.m in Sources */,
+				D0F16C5217259E1F0047D45D /* DrawingView.m in Sources */,
+				D0F16C5517259E1F0047D45D /* InputHandler.m in Sources */,
+				D0F16C5E17259E1F0047D45D /* LeapObjcToC.m in Sources */,
+				D0F16C5F17259E1F0047D45D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		849781A415A361E4002B7B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		849781A515A361E4002B7B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		849781A715A361E4002B7B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeapCMouse/LeapCMouse-Prefix.pch";
+				INFOPLIST_FILE = "LeapCMouse/LeapCMouse-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LeapCMouse/Leap SDK\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = LeapCMouse;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		849781A815A361E4002B7B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeapCMouse/LeapCMouse-Prefix.pch";
+				INFOPLIST_FILE = "LeapCMouse/LeapCMouse-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LeapCMouse/Leap SDK\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = LeapCMouse;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8497818215A361E3002B7B94 /* Build configuration list for PBXProject "LeapCMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849781A415A361E4002B7B94 /* Debug */,
+				849781A515A361E4002B7B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849781A615A361E4002B7B94 /* Build configuration list for PBXNativeTarget "LeapCMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849781A715A361E4002B7B94 /* Debug */,
+				849781A815A361E4002B7B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8497817F15A361E3002B7B94 /* Project object */;
+}

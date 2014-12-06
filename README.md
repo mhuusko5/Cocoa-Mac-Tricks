@@ -1,4 +1,4 @@
-Cocoa Mac Global Four Finger Tap Event
+Cocoa Mac Tricks
 ===============================================
 
-Detect and respond to a four finger tap event on a Mac trackpad (access for assistive devices and four finger gestures must be enabled in system preferences), globally, without using private API's (Mac App Store passable)! 
+Tricky things to accomplish on Mac OS X, accomplished! Currently: a Cocoa app with no .xib files, and only C code; checking if a Mac laptop lid is closed; detecting a four finger trackpad tap event without using private APIs.

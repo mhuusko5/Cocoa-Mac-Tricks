@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Cocoa Mac Global Four Finger Tap Event.xcodeproj">
+      location = "self:LeapCMouse.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'Cocoa Mac Global Four Finger Tap Event' target in the 'Cocoa Mac Global Four Finger Tap Event' project
-//
-
-#ifdef __OBJC__
-#import <Cocoa/Cocoa.h>
-#endif
