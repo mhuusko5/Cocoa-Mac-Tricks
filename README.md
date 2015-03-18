@@ -2,8 +2,7 @@
 
 Tricky things to accomplish on Mac OS X, accomplished! 
 
-
-Currently...
+## Currently...
 
 A Cocoa app with no .xib files, and only C code.
 
